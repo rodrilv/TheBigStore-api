@@ -6,11 +6,6 @@ export interface IVideogame {
     manual: String;
     disk: String;
   };
-  stock: {
-    complete: boolean;
-    manual: boolean;
-    disk: boolean;
-  };
   quantity: {
     complete: Number;
     manual: Number;
